@@ -43,12 +43,12 @@ class HNAViewController: UIViewController {
             self.navBar.backgroundColor = newValue
         }
     }
-    override var title: String? {get{
-            return self.navTitle.text
-        }set{
-            self.navTitle.text = newValue
-        }
-    }
+//    override var title: String? {get{
+//            return self.navTitle.text
+//        }set{
+//            self.navTitle.text = newValue
+//        }
+//    }
     
     // MARK: - lazy loading configure
     lazy var navBar: UIImageView = {
@@ -61,8 +61,8 @@ class HNAViewController: UIViewController {
     lazy var btnLeft: UIButton = {
         self.btnLeft = UIButton.init(frame: CGRect.init(x: self.btnMargin, y: 20, width: self.btnWidth, height: self.btnWidth))
         self.btnLeft.backgroundColor = UIColor.orange
-        self.navBar.addSubview(self.btnLeft)
         self.btnLeft.addTarget(self, action: #selector(HNAViewController.leftAction), for: UIControlEvents.touchUpInside)
+        self.navBar.addSubview(self.btnLeft)
         return self.btnLeft
     }()
     lazy var btnRight: UIButton = {

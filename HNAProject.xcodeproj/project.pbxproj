@@ -11,6 +11,7 @@
 		6320C0461F60FB5F00EF4AB8 /* HNAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320C0451F60FB5F00EF4AB8 /* HNAViewController.swift */; };
 		6320C0491F610BC600EF4AB8 /* HNANavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320C0481F610BC600EF4AB8 /* HNANavigationController.swift */; };
 		6320C04F1F61136A00EF4AB8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6320C04E1F61136A00EF4AB8 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		6320C0531F61382200EF4AB8 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320C0521F61382200EF4AB8 /* SubViewController.swift */; };
 		63DFB4EF1F60FAAE00A6DE00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB4EE1F60FAAE00A6DE00 /* AppDelegate.swift */; };
 		63DFB4F11F60FAAE00A6DE00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB4F01F60FAAE00A6DE00 /* ViewController.swift */; };
 		63DFB4F41F60FAAE00A6DE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DFB4F21F60FAAE00A6DE00 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		6320C04C1F61136900EF4AB8 /* HNAProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNAProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		6320C04D1F61136A00EF4AB8 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		6320C04E1F61136A00EF4AB8 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		6320C0521F61382200EF4AB8 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		63DFB4EB1F60FAAE00A6DE00 /* HNAProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNAProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DFB4EE1F60FAAE00A6DE00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DFB4F01F60FAAE00A6DE00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				6320C0511F611EE100EF4AB8 /* Support */,
 				63DFB4EE1F60FAAE00A6DE00 /* AppDelegate.swift */,
 				63DFB4F01F60FAAE00A6DE00 /* ViewController.swift */,
+				6320C0521F61382200EF4AB8 /* SubViewController.swift */,
 				63DFB4F21F60FAAE00A6DE00 /* Main.storyboard */,
 				63DFB4F51F60FAAE00A6DE00 /* Assets.xcassets */,
 				63DFB4F71F60FAAE00A6DE00 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 			files = (
 				6320C04F1F61136A00EF4AB8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				6320C0461F60FB5F00EF4AB8 /* HNAViewController.swift in Sources */,
+				6320C0531F61382200EF4AB8 /* SubViewController.swift in Sources */,
 				63DFB4F11F60FAAE00A6DE00 /* ViewController.swift in Sources */,
 				6320C0441F60FB3E00EF4AB8 /* HNATabBarController.swift in Sources */,
 				63DFB4EF1F60FAAE00A6DE00 /* AppDelegate.swift in Sources */,

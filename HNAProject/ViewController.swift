@@ -17,7 +17,7 @@ class ViewController: HNAViewController {
         self.navBarColor = UIColor.randomColor
         print(self.navBarColor)
         
-        self.title = "Demo"
+        self.navTitle.text = "abcd"
         self.btnRight.setTitle("fff", for: UIControlState.normal)
         
     }
@@ -28,7 +28,7 @@ class ViewController: HNAViewController {
     }
 
     @IBAction func gotoSubAction(_ sender: Any) {
-        let ctrl = ViewController()
+        let ctrl = SubViewController()
         self.navigationController?.pushViewController(ctrl, animated: true)
     }
     
